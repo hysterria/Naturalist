@@ -1,22 +1,19 @@
 # Виртуальное окружение
 venv/
+
+# Python
 __pycache__/
 *.pyc
 
-# DVC кэш (не загружаем сами большие данные)
-# Не отслеживать все изображения
+# Игнорируем САМИ данные
 data/images/
-.data/images/.gitignore
-.data/images/*
-!.dvc/
-.cache/
 
-# DVC метаданные можно коммитить
-*.dvc
-dvc.lock
-.dvc/
+# DVC cache (внутренний)
+.dvc/cache/
+
 .gitignore
 
 # Логи и временные файлы
 *.log
 *.tmp
+/full_dataset.csv
