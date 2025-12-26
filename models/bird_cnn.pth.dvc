@@ -1,0 +1,5 @@
+outs:
+- md5: f08b2902ef39e3df091adec7bd4de791
+  size: 1964525
+  hash: md5
+  path: bird_cnn.pth
