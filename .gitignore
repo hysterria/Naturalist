@@ -17,3 +17,5 @@ data/images/
 *.log
 *.tmp
 /full_dataset.csv
+
+mlruns/
